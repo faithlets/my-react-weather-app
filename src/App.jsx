@@ -1,17 +1,45 @@
-import React from 'react'
+import React from "react";
+import Weather from "./weather";
+import "./Weather.css";
+import "./App.css";
 
-import './App.css'
-
-function App() {
-  
-
+export default function App() {
   return (
-   
-      <div className='App'>Weather App
-        
-      </div>
-      
-  )
-}
+    <div className="App">
+      <div className="container">
+      <Weather />
 
-export default App
+        <footer>
+          This project was coded by {" "}
+          <a
+            href=""
+
+
+            
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Faith Letsoara
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/faithlets/react-weather/blob/main/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://singular-valkyrie-51b01c.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
+      </div>
+   
+  );
+}
