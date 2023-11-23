@@ -31,7 +31,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://singular-valkyrie-51b01c.netlify.app/"
+            href="https://beautiful-sprite-654b94.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
